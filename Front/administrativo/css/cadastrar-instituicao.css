@@ -1,0 +1,26 @@
+.form-group > input {
+    border-radius: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.share select {
+    background-color: #fff;
+    border-radius: 3px;
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+}
+.share button {
+    height: 37px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.share button:hover {
+    background-color: #77b5ea;
+    color: #fff;
+}
+.control {
+    display: flex;
+    justify-content: flex-end;
+}
