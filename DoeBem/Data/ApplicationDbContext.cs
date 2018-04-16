@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using DoeBem.Models;
+using DoeBem.Models.PessoaViewModels;
 
 namespace DoeBem.Data
 {
@@ -22,5 +23,7 @@ namespace DoeBem.Data
             // For example, you can rename the ASP.NET Identity table names and more.
             // Add your customizations after calling base.OnModelCreating(builder);
         }
+
+        public DbSet<DoeBem.Models.PessoaViewModels.Instituicao> Instituicao { get; set; }
     }
 }

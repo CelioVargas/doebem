@@ -2,4 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/DoeBem/bin/Debug/netcoreapp2.0/DoeBem.runtimeconfig.json
+*bin
+*obj
+/.vs

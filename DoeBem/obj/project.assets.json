@@ -13131,11 +13131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\source\\repos\\DoeBem\\DoeBem\\DoeBem.csproj",
+      "projectUniqueName": "C:\\Users\\mateu\\doebem\\DoeBem\\DoeBem.csproj",
       "projectName": "DoeBem",
-      "projectPath": "C:\\Users\\mateu\\source\\repos\\DoeBem\\DoeBem\\DoeBem.csproj",
+      "projectPath": "C:\\Users\\mateu\\doebem\\DoeBem\\DoeBem.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\source\\repos\\DoeBem\\DoeBem\\obj\\",
+      "outputPath": "C:\\Users\\mateu\\doebem\\DoeBem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

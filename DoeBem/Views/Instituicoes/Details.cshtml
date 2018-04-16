@@ -1,0 +1,114 @@
+﻿@model DoeBem.Models.PessoaViewModels.Instituicao
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Instituicao</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Login)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Login)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Senha)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Senha)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ImagemUrl)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ImagemUrl)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VideoUrl)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VideoUrl)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cnpj)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cnpj)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RazaoSocial)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RazaoSocial)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeFantasia)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomeFantasia)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Numero)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Numero)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Complemento)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Complemento)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cep)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cep)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Bairro)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Bairro)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Municipio)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Municipio)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Uf)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Uf)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

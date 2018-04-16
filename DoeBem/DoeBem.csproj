@@ -5,6 +5,11 @@
     <UserSecretsId>aspnet-DoeBem-D60F1322-6A64-4EB9-8E09-E9705BF07B3F</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20180416233824_v1.cs" />
+    <Compile Remove="Data\Migrations\20180416233824_v1.Designer.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
