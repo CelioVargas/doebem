@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using DoeBem.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using DoeBem.Models;
-using DoeBem.Models.PessoaViewModels;
 
 namespace DoeBem.Data
 {
@@ -24,6 +19,6 @@ namespace DoeBem.Data
             // Add your customizations after calling base.OnModelCreating(builder);
         }
 
-        public DbSet<DoeBem.Models.PessoaViewModels.Instituicao> Instituicao { get; set; }
+        public DbSet<DoeBem.Models.UsuarioViewModels.Instituicao> Instituicao { get; set; }
     }
 }
